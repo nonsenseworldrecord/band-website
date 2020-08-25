@@ -1,0 +1,126 @@
+/*---TYPOGRAPHY-----------------------------------------------------------*/
+
+html {
+  font-size: 10px; /* 1rem = 10px */
+}
+
+/*---MOBILE-1---------------------------------------*/
+
+body, p, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.4rem;
+  line-height: 167.23%;
+}
+
+.large-heading {
+  font-size: 3.4rem;
+  line-height: 120%;
+}
+
+.main-heading {
+  font-size: 2.4rem;
+  line-height: 120%;
+}
+
+.sub-heading {
+  font-size: 2rem;
+  line-height: 120%;
+}
+
+.sub-sub-heading {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+a {
+  text-decoration: none;
+}
+
+strong {
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.nav-link {
+  font-size: 3.4rem;
+}
+
+.label {
+  font-size: 2rem;
+}
+
+.label-2 {
+  font-size: 1.6rem;
+}
+
+.caption {
+  font-style: italic;
+}
+
+.news-title {
+  font-family: 'Permanent Marker', sans-serif;
+  font-size: 2.6rem;
+  line-height: 100%;
+}
+
+.news-intro {
+  font-size: 2.4rem;
+  line-height: 167.23%;
+}
+
+/*---MOBILE-2---------------------------------------*/
+
+@media screen and (min-width: 600px) {
+
+  .news-title {
+    font-size: 3.4rem;
+  }
+
+}
+
+/*---DESKTOP-1------------------------------------------*/
+
+@media screen and (min-width: 900px) {
+
+  body, p, div {
+    font-size: 1.6rem;
+    line-height: 173%;
+  }
+
+  .nav-link {
+    font-size: 2rem;
+  }
+
+  .label {
+    font-size: 2.4rem;
+  }
+
+  .label-2 {
+    font-size: 2rem;
+  }
+
+  .news-title {
+    font-size: 4.8rem;
+  }
+
+  .news-intro {
+    font-size: 3rem;
+    line-height: 173%;
+  }
+
+}
+
+/*---DESKTOP-2------------------------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+  .news-title {
+    font-size: 5.6rem;
+  }
+
+  .news-intro {
+    font-size: 3.4rem;
+  }
+
+}

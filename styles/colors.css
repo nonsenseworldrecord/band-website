@@ -1,0 +1,50 @@
+/*---COLORS---------------------------------------------------------------*/
+
+/*---MOBILE-1-------------------------------------------*/
+
+body {
+  background-color: #121212;
+  color: #CCCCCC;
+}
+
+nav {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
+  background-color: #121212;
+}
+
+.media {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 100%);
+  color: #FFFFFF;
+}
+
+.news {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 100%);
+  color: #FFFFFF;
+}
+
+.hamburger-menu-backing-hero-curtain, .hamburger-menu-backing-about-hero-curtain {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 100%);
+  background-color: #121212;
+}
+
+.hamburger-menu-backing {
+  background-color: #232323;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+a:hover {
+  color: #3181F2;
+}
+
+/*---DESKTOP-1------------------------------------------*/
+
+@media screen and (min-width: 900px) {
+
+  nav {
+    background: transparent;
+  }
+
+}

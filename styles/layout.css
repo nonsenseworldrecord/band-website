@@ -1,0 +1,256 @@
+/*---LAYOUT---------------------------------------------------------------*/
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
+body {
+  position: relative;
+}
+
+/*---MOBILE-1-------------------------------------------*/
+
+/*---HEADER---------------------*/
+
+header {
+  padding: 2.4rem 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+}
+
+.header-content {
+  margin: 0 auto;
+  width: 87.2%;
+}
+
+.logo {
+  float: left;
+}
+
+.hamburger-menu, .close-nav-menu {
+  margin-top: 1.7rem;
+  position: fixed;
+  right: 6.4%;
+}
+
+.close-nav-menu {
+  display: none;
+  position: fixed;
+  z-index: 6;
+}
+
+.stopscroll {
+  overflow: hidden;
+}
+
+nav {
+  display: none;
+  height: 100%;
+  margin: -2.4rem 0 -4rem -12.8%;
+  position: fixed;
+  width: 112.8%;
+  z-index: 5;
+}
+
+.nav-links-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: -12.3rem;
+  position: relative;
+  top: 50%;
+}
+
+.nav-link {
+  text-align: center;
+}
+
+.nav-link a {
+  display: block;
+  padding: 2.4rem 0;
+}
+
+/*---FOOTER---------------------*/
+
+footer {
+  bottom: 0;
+  padding: 2.4rem 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
+/*---MEDIA----------------------*/
+
+.media {
+  overflow: auto;
+  position: relative;
+}
+
+.media-content {
+  height: 32rem;
+  left: 50%;
+  margin: 7.2rem 0 9.6rem -16rem;
+  position: relative;
+  width: 32rem;
+}
+
+/*---NEWS-----------------------*/
+
+.news {
+  height: 100vh;
+  min-height: 70rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.hamburger-menu-backing-hero-curtain {
+  height: 100vh;
+  min-height: 70rem;
+  position: relative;
+  z-index: 3;
+}
+
+.hamburger-menu-backing {
+  border-radius: 3rem;
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25);
+  height: 6rem;
+  margin-right: -1.1rem;
+  position: fixed;
+  right: 6.4%;
+  top: 2.2rem;
+  width: 6rem;
+  z-index: 2;
+}
+
+.news-content {
+  height: 40rem;
+  left: 50%;
+  margin: -17.25rem 0 0 -15rem;
+  position: relative;
+  top: 47%;
+  width: 30rem;
+  z-index: 4;
+}
+
+/*---TOUR-----------------------*/
+
+/*---BAND-----------------------*/
+
+/*---MOBILE-2-------------------------------------------*/
+
+@media screen and (min-width: 600px) {
+
+  /*---NEWS-----------------------*/
+
+  .news {
+    min-height: 70rem;
+  }
+
+  .news-content {
+    height: 50rem;
+    margin: -25rem 0 0 -20rem;
+    top: 50%;
+    width: 40rem;
+  }
+
+}
+
+/*---DESKTOP-1------------------------------------------*/
+
+@media screen and (min-width: 900px) {
+
+  /*---HEADER---------------------*/
+
+  header {
+    min-width: 56.4rem;
+    overflow: hidden;
+    padding: 4rem 0;
+  }
+
+  .header-content {
+    width: 82%;
+  }
+
+  .hamburger-menu, .close-nav-menu {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    float: right;
+    margin: 2.7rem 0 0 0;
+    position: static;
+    width: auto;
+  }
+
+  .nav-links-container {
+    flex-direction: row;
+    margin-top: 0;
+    position: static;
+  }
+
+  .nav-link {
+    margin: 0 1.6rem;
+  }
+
+  .nav-link a {
+    padding: 0;
+  }
+
+  /*---MEDIA----------------------*/
+
+  .media-content {
+    height: 51.3rem;
+    margin: 12.8rem 0 10.8rem -38.1rem;
+    width: 76.2rem;
+  }
+
+  /*---NEWS-----------------------*/
+
+  .news {
+    min-height: 82.5rem;
+  }
+
+  .hamburger-menu-backing-hero-curtain, .hamburger-menu-backing {
+    display: none;
+  }
+
+  .news-content {
+    height: 43.5rem;
+    margin: -21.75rem 0 0 -39.6rem;
+    top: 50%;
+    width: 79.2rem;
+  }
+
+  /*---TOUR-----------------------*/
+
+  /*---BAND-----------------------*/
+
+}
+
+/*---DESKTOP-2------------------------------------------------------------*/
+
+@media screen and (min-width: 1200px) {
+
+  /*---NEWS-----------------------*/
+
+  .news-content {
+    height: 51.3rem;
+    margin: -23.65rem 0 0 -46.7rem;
+    top: 45%;
+    width: 93.4rem;
+  }
+
+}
