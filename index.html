@@ -5,17 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Nonsense World Record | Official</title>
-    <meta name="description" content="Nonsense World Record - The official band website of Nonsense World Record.">
+    <meta name="description" content="The official band website of Nonsense World Record.">
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">
     <link href="styles/reset.css" rel="stylesheet">
     <link href="styles/typography.css" rel="stylesheet">
     <link href="styles/colors.css" rel="stylesheet">
     <link href="styles/layout.css" rel="stylesheet">
     <link href="styles/images-layout.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
   </head>
 
-  <body id="body" onresize="windowResizeNavFix(); heroCurtain()" onLoad="heroCurtain()">
+  <body id="body" onresize="windowResizeNavFix()">
 
     <!--HEADER-->
     <header>
@@ -27,8 +27,7 @@
           <ul class="nav-links-container">
             <li onclick="showOnClick()" class="nav-link"><a href="#tour">TOUR</a></li>
             <li onclick="showOnClick()" class="nav-link"><a href="merch.html" target="_blank">MERCH</a></li>
-            <li onclick="showOnClick()" class="nav-link"><a href="#band">BAND</a></li>
-            <li onclick="showOnClick()" class="nav-link"><a href="#media">MEDIA</a></li>
+            <li onclick="showOnClick()" class="nav-link"><a href="#follow">FOLLOW</a></li>
           </ul>
         </nav>
       </div>
@@ -40,37 +39,42 @@
 
         <!--NEWS-->
         <section id="news" class="news">
+          <div class="overlay"></div>
           <div class="news-content">
-            <div class="news-title">Nonsense World Record</div>
-            <div class="news-intro">Site currently under construction!</div>
-            <div class="label2">Soon to be the official website of the band.</div>
-
+            <h1 class="news-title">Nonsense World Record</h1>
+            <h2 class="news-intro">Single out now.</h2>
+            <img class="news-image" src="images/voilà-album-cover-artwork.png" alt="voilà album cover artwork - a far away lighthouse casts light on a dark green sea">
+            <h3 class="large-heading">Voilà</h3>
+            <div class="label">Single • 2020</div>
+            <div class="listen-on">
+              <a class="listen-on-link spotify" href="" target="_blank"><img class="listen-on-image" src="images/listen-on-spotify.png" alt="listen on spotify"></a>
+              <a class="listen-on-link apple-music" href="http://itunes.apple.com/album/id/1528929752" target="_blank"><img class="listen-on-image" src="images/listen-on-apple-music.png" alt="listen on apple music"></a>
+              <a class="listen-on-link youtube" href="https://www.youtube.com/channel/UCFDgPY6rKMWJGzmWkl2zxkw" target="_blank"><img class="listen-on-image" src="images/listen-on-youtube.png" alt="watch & listen on youtube"></a>
+            </div>
           </div>
         </section>
-
-        <div id="hamburger-menu-backing-hero-curtain" class="hamburger-menu-backing-hero-curtain"></div>
-        <div class="hamburger-menu-backing"></div>
 
         <!--TOUR-->
         <section id="tour" class="tour">
           <div class="tour-content">
-
-          </div>
-        </section>
-
-        <!--BAND-->
-        <section id="band" class="band">
-          <div class="band-content">
-
+            <h1 class="large-heading">TOUR</h1>
+            <div class="bottom-border"></div>
+            <div class="main-heading">No upcoming tour dates at this time.</div>
           </div>
         </section>
 
       </main>
 
-      <!--MEDIA-->
-      <section id="media" class="media">
-        <div class="media-content">
-
+      <!--FOLLOW-->
+      <section id="follow" class="follow">
+        <div class="follow-content">
+          <h1 class="large-heading">FOLLOW</h1>
+          <ul class="social-media-links">
+            <li class="social-media-link"><a href="" target="_blank"><img class="social-icon" src="images/facebook.png" alt="facebook icon"></a></li>
+            <li class="social-media-link"><a href="" target="_blank"><img class="social-icon" src="images/instagram.png" alt="instagram icon"></a></li>
+            <li class="social-media-link"><a href="https://www.youtube.com/channel/UCFDgPY6rKMWJGzmWkl2zxkw" target="_blank"><img class="social-icon" src="images/youtube.png" alt="youtube icon"></a></li>
+            <li class="social-media-link"><a href="https://soundcloud.com/user-266531742" target="_blank"><img class="social-icon" src="images/soundcloud.png" alt="soundcloud icon"></a></li>
+          </ul>
         </div>
       </section>
 
@@ -80,12 +84,18 @@
     <footer>© 2020 | Designed & Developed by James Faith</footer>
 
     <!--LOAD JS-->
-    <script src="scripts/herocurtain.js"></script>
     <script src="scripts/windowresizenavfix.js"></script>
     <script src="scripts/showonclick.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163564075-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-163564075-2');
+    </script>
 
   </body>
 

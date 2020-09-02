@@ -91,80 +91,137 @@ footer {
   width: 100%;
 }
 
-/*---MEDIA----------------------*/
+/*---FOLLOW---------------------*/
 
-.media {
+.follow {
   overflow: auto;
   position: relative;
 }
 
-.media-content {
-  height: 32rem;
+.follow-content {
+  height: 10.8rem;
   left: 50%;
-  margin: 7.2rem 0 9.6rem -16rem;
+  margin: 4.8rem 0 9.6rem -16rem;
   position: relative;
   width: 32rem;
+}
+
+.follow-content .large-heading {
+  left: 50%;
+  margin-left: -6.6rem;
+  position: absolute;
+  top: 0;
+}
+
+.social-media-links {
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  left: 50%;
+  margin-left: -14.4rem;
+  position: absolute;
+}
+
+.social-media-link {
+  margin: 0 1.6rem;
 }
 
 /*---NEWS-----------------------*/
 
 .news {
-  height: 100vh;
-  min-height: 70rem;
+  height: 90rem;
   overflow: hidden;
   position: relative;
 }
 
-.hamburger-menu-backing-hero-curtain {
-  height: 100vh;
-  min-height: 70rem;
-  position: relative;
-  z-index: 3;
-}
-
-.hamburger-menu-backing {
-  border-radius: 3rem;
-  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.25);
-  height: 6rem;
-  margin-right: -1.1rem;
-  position: fixed;
-  right: 6.4%;
-  top: 2.2rem;
-  width: 6rem;
-  z-index: 2;
+.overlay {
+  height: 100%;
+  position: absolute;
+  width: 100%;
 }
 
 .news-content {
-  height: 40rem;
+  height: 71.4rem;
   left: 50%;
-  margin: -17.25rem 0 0 -15rem;
+  margin-left: -15rem;
   position: relative;
-  top: 47%;
+  top: 15%;
   width: 30rem;
   z-index: 4;
 }
 
+.news-title {
+  margin: 0 auto;
+  text-align: center;
+  width: 30rem;
+}
+
+.news-intro {
+  margin-top: 1.6rem;
+  text-align: center;
+}
+
+.news-image {
+  border-radius: 0.1rem;
+  box-shadow: 0 0.8rem 0.8rem rgba(0, 0, 0, 0.25);
+  margin-top: 3.2rem;
+}
+
+.news-content .large-heading {
+  margin-top: 3.2rem;
+  text-align: center;
+}
+
+.news-content .label {
+  margin-top: 1.6rem;
+  text-align: center;
+}
+
+.listen-on {
+  height: 11.2rem;
+  margin: 2.4rem auto 0;
+  position: relative;
+  width: 27.6rem;
+}
+
+.spotify {
+  position: absolute;
+}
+
+.apple-music {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.youtube {
+  bottom: 0;
+  left: 50%;
+  margin-left: -6.5rem;
+  position: absolute;
+}
+
 /*---TOUR-----------------------*/
 
-/*---BAND-----------------------*/
+.tour-content {
+  height: 15.7rem;
+  margin: 4rem auto 4.8rem;
+}
 
-/*---MOBILE-2-------------------------------------------*/
+.tour-content .large-heading {
+  text-align: center;
+}
 
-@media screen and (min-width: 600px) {
+.bottom-border {
+  height: 0.1rem;
+  margin: 2.4rem auto 0;
+  width: 32rem;
+}
 
-  /*---NEWS-----------------------*/
-
-  .news {
-    min-height: 70rem;
-  }
-
-  .news-content {
-    height: 50rem;
-    margin: -25rem 0 0 -20rem;
-    top: 50%;
-    width: 40rem;
-  }
-
+.tour-content .main-heading {
+  margin: 2.4rem auto 0;
+  text-align: center;
+  width: 22.7rem;
 }
 
 /*---DESKTOP-1------------------------------------------*/
@@ -190,7 +247,7 @@ footer {
   nav {
     display: block;
     float: right;
-    margin: 2.7rem 0 0 0;
+    margin: 4rem 0 0 0;
     position: static;
     width: auto;
   }
@@ -209,48 +266,107 @@ footer {
     padding: 0;
   }
 
-  /*---MEDIA----------------------*/
+  /*---FOLLOW---------------------*/
 
-  .media-content {
-    height: 51.3rem;
-    margin: 12.8rem 0 10.8rem -38.1rem;
-    width: 76.2rem;
+  .follow-content {
+    height: 15.2rem;
+    margin: 6.4rem 0 13.2rem -25.2rem;
+    width: 50.4rem;
+  }
+
+  .follow-content .large-heading {
+    margin-left: -9.25rem;
+  }
+
+  .social-media-links {
+    margin-left: -20.8rem;
+    width: 41.6rem;
+  }
+
+  .social-media-link {
+    margin: 0 2.4rem;
   }
 
   /*---NEWS-----------------------*/
 
   .news {
-    min-height: 82.5rem;
-  }
-
-  .hamburger-menu-backing-hero-curtain, .hamburger-menu-backing {
-    display: none;
+    height: 102.4rem;
   }
 
   .news-content {
-    height: 43.5rem;
-    margin: -21.75rem 0 0 -39.6rem;
-    top: 50%;
-    width: 79.2rem;
+    height: 68rem;
+    left: 48%;
+    margin: -35rem 0 0 -38rem;
+    top: 54%;
+    width: 76rem;
+  }
+
+  .news-title {
+    position: absolute;
+    width: 100%;
+  }
+
+  .news-intro {
+    margin-top: 0;
+    position: absolute;
+    top: 10rem;
+    width: 100%;
+  }
+
+  .news-image {
+    bottom: 0;
+    margin-top: 0;
+    position: absolute;
+  }
+
+  .news-content .large-heading {
+    left: 54.4rem;
+    margin-top: 0;
+    position: absolute;
+    top: 24rem;
+  }
+
+  .news-content .label {
+    left: 54.4rem;
+    margin-top: 0;
+    position: absolute;
+    top: 30.4rem;
+  }
+
+  .listen-on {
+    bottom: 2.2rem;
+    height: 28.8rem;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    width: 21.6rem;
+  }
+
+  .apple-music {
+    top: 10.4rem;
+  }
+
+  .youtube {
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
   }
 
   /*---TOUR-----------------------*/
 
-  /*---BAND-----------------------*/
+  .tour-content {
+    height: 16.2rem;
+    margin: 5.6rem auto 8rem;
+  }
 
-}
+  .bottom-border {
+    margin-top: 3.2rem;
+    width: 80%;
+  }
 
-/*---DESKTOP-2------------------------------------------------------------*/
-
-@media screen and (min-width: 1200px) {
-
-  /*---NEWS-----------------------*/
-
-  .news-content {
-    height: 51.3rem;
-    margin: -23.65rem 0 0 -46.7rem;
-    top: 45%;
-    width: 93.4rem;
+  .tour-content .main-heading {
+    margin-top: 4.8rem;
+    width: 80%;
   }
 
 }

@@ -3,32 +3,31 @@
 /*---MOBILE-1-------------------------------------------*/
 
 body {
-  background-color: #121212;
+  background-color: #0A0A0A;
   color: #CCCCCC;
 }
 
 nav {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.05) 100%);
   background-color: #121212;
 }
 
-.media {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 100%);
+.follow {
+  background-color: #0D0D0D;
   color: #FFFFFF;
 }
 
 .news {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 100%);
+  background-image: url(/images/background.jpg);
+  background-size: cover;
   color: #FFFFFF;
 }
 
-.hamburger-menu-backing-hero-curtain, .hamburger-menu-backing-about-hero-curtain {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.07) 100%);
-  background-color: #121212;
+.overlay {
+  background: linear-gradient(180deg, #0A0A0A 0%, rgba(10, 10, 10, 0.9) 100%);
 }
 
-.hamburger-menu-backing {
-  background-color: #232323;
+.news-image {
+  border: 0.1rem solid #CCCCCC;
 }
 
 a {
@@ -37,6 +36,10 @@ a {
 
 a:hover {
   color: #3181F2;
+}
+
+.bottom-border {
+  background-color: #545454;
 }
 
 /*---DESKTOP-1------------------------------------------*/
