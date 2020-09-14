@@ -4,7 +4,7 @@
 
 body {
   background-color: #0A0A0A;
-  color: #CCCCCC;
+  color: #FFFFFF;
 }
 
 nav {
@@ -12,22 +12,24 @@ nav {
 }
 
 .follow {
-  background-color: #0D0D0D;
-  color: #FFFFFF;
+  background-color: #181818;
 }
 
 .news {
   background-image: url(/images/background.jpg);
   background-size: cover;
-  color: #FFFFFF;
 }
 
 .overlay {
-  background: linear-gradient(180deg, #0A0A0A 0%, rgba(10, 10, 10, 0.9) 100%);
+  background: linear-gradient(180deg, #0A0A0A 0%, rgba(10, 10, 10, 0.85) 100%);
 }
 
 .news-image {
   border: 0.1rem solid #CCCCCC;
+}
+
+.tour-content .main-heading {
+  color: #CCCCCC;
 }
 
 a {
@@ -36,6 +38,15 @@ a {
 
 a:hover {
   color: #3181F2;
+}
+
+.listen-on-link:hover .fade-bg {
+    background-color: black;
+    border-radius: 1.4rem;
+}
+
+.listen-on-link:hover .listen-on-image {
+    opacity: 0.7;
 }
 
 .bottom-border {

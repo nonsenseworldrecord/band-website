@@ -141,6 +141,9 @@ footer {
 }
 
 .news-content {
+  animation: fadein ease 1.5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 1;
   height: 71.4rem;
   left: 50%;
   margin-left: -15rem;
@@ -148,6 +151,18 @@ footer {
   top: 15%;
   width: 30rem;
   z-index: 4;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .news-title {
