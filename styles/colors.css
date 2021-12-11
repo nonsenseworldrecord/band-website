@@ -49,10 +49,6 @@ a:hover {
     opacity: 0.7;
 }
 
-.bottom-border {
-  background-color: #545454;
-}
-
 /*---DESKTOP-1------------------------------------------*/
 
 @media screen and (min-width: 900px) {

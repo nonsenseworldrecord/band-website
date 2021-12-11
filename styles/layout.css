@@ -218,6 +218,14 @@ footer {
 
 /*---TOUR-----------------------*/
 
+.tour-content .desktop-table {
+  display: none;
+}
+
+.tour-content .mobile-table {
+  display: block;
+}
+
 .tour-content {
   height: 15.7rem;
   margin: 4rem auto 4.8rem;
@@ -227,16 +235,23 @@ footer {
   text-align: center;
 }
 
-.bottom-border {
-  height: 0.1rem;
-  margin: 2.4rem auto 0;
-  width: 32rem;
+.tour-content table {
+  margin: 3.2rem auto 0;
+  width: 90%;
 }
 
-.tour-content .main-heading {
-  margin: 2.4rem auto 0;
+.tour-content td {
+  border: 0.1rem solid #545454;
+  padding: 0.8rem ;
   text-align: center;
-  width: 22.7rem;
+}
+
+.tour-content .second-column {
+  width: 100%;
+}
+
+.tour-content .third-column {
+  background-color: #121212;
 }
 
 /*---DESKTOP-1------------------------------------------*/
@@ -369,19 +384,38 @@ footer {
 
   /*---TOUR-----------------------*/
 
+  .tour-content .mobile-table {
+    display: none;
+  }
+
+  .tour-content .desktop-table {
+    display: block;
+  }
+
   .tour-content {
     height: 16.2rem;
     margin: 5.6rem auto 8rem;
   }
 
-  .bottom-border {
-    margin-top: 3.2rem;
-    width: 80%;
+  .tour-content table {
+    margin: 4.8rem auto 0;
+    width: 50%;
   }
 
-  .tour-content .main-heading {
-    margin-top: 4.8rem;
-    width: 80%;
+  .tour-content td {
+    padding: 1.6rem ;
+  }
+
+  .tour-content .first-column {
+    width: 2%;
+  }
+
+  .tour-content .second-column {
+    width: 10%;
+  }
+
+  .tour-content .third-column {
+    width: 30%;
   }
 
 }
